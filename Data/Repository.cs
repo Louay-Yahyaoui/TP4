@@ -8,6 +8,11 @@ namespace TP4.Data
     {
         protected readonly UniversityContext _context;
 
+        public Repository()
+
+        {
+            _context = UniversityContext.getInstance();
+        }
         public bool Add(TEntity entity)
         {
             try

@@ -7,7 +7,11 @@
         {
             get;
         }
-
+        public UnitOfWork()
+        {
+            _universityContext = UniversityContext.getInstance();
+            Students = new StudentRepository();
+        }
         public bool Complete()
         {
             try 

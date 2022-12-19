@@ -1,0 +1,31 @@
+﻿
+@{
+    @model IEnumerable<Student>
+
+}
+
+
+@{
+    ViewData["Title"] = "students";
+    if (Model.Any())
+{
+        <h3>Students who take <i>@Model.FirstOrDefault().course</i></h3>
+        <div style="text-align:center;">
+            
+            @foreach(Student student in Model){
+            <div>
+                @student.first_name @student.last_name 
+            </div>
+
+            }
+
+        </div>
+    }
+    else
+    {
+        <h3 style="color:red">Course not found </h3>
+    }
+    
+
+
+}

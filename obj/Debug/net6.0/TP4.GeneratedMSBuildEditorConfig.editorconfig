@@ -15,8 +15,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Louay\source\repos\TP4\TP4
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Louay/source/repos/TP4/TP4/Views/Home/Courses.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb3Vyc2VzLmNzaHRtbA==
+[C:/Users/Louay/source/repos/TP4/TP4/Views/Home/courses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb3Vyc2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Louay/source/repos/TP4/TP4/Views/Home/Index.cshtml]
@@ -25,6 +25,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Louay/source/repos/TP4/TP4/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Louay/source/repos/TP4/TP4/Views/Home/Students.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdHVkZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Louay/source/repos/TP4/TP4/Views/Shared/Error.cshtml]
